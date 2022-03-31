@@ -1,0 +1,8 @@
+#cloud-config
+package_upgrade: true
+packages:
+  - ec2-instance-connect
+  - apache2
+runcmd:
+  - systemctl start httpd
+  - sudo systemctl enable httpd
