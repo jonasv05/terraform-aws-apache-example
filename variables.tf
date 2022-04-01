@@ -10,10 +10,6 @@ variable "aws_vpc_id" {
   description = "Provide the Custom VPC ID if you use one."
 }
 */
-variable "my_ip_with_cidr" {
-  type = list
-  description = "Provide your public ip."
-}
 
 variable "public_key" {
   type = string
